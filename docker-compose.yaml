@@ -3,7 +3,7 @@ services:
   marker-api:
     build: .
     ports:
-      - "8000:8000"
+      - "8051:8000"
     environment:
       - TORCH_DEVICE=cuda
     deploy: {}
